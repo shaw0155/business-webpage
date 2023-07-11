@@ -1,0 +1,40 @@
+.navbar {
+  background-color: inherit;
+  padding: 3rem 0;
+
+  .logo-container img {
+    width: 15rem;
+  }
+}
+
+.navbar,
+.navbar-links {
+  @include flex-center-between;
+}
+
+.navbar-links {
+  list-style: none;
+  gap: 8rem;
+
+  @media (max-width: 1250px) {
+    width: 60%;
+    gap: 1rem;
+  }
+
+  .navbar-link {
+    a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: $normal-text-color;
+
+      text-transform: capitalize;
+      letter-spacing: 1px;
+
+      transition: all 0.4s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

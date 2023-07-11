@@ -1,0 +1,13 @@
+@import "global";
+@import "components/Header";
+@import "components/Navbar";
+@import "components/FirstSection";
+@import "components/Section2.scss";
+@import "components/Section3.scss";
+@import "components/Aboutus";
+@import "components/Footer";
+
+.App {
+  margin: 0 auto;
+  max-width: 85%;
+}
